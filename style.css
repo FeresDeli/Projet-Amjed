@@ -3,17 +3,18 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+body {
+    background: linear-gradient(to right, #49303e,#3b2b3f, #49303e,#181e41, #272440, #181e41, #262340);
+}
 nav {
   width: 100%;
   height: 70px;
-  background-color: #2f2626;
+  background-color: #49303e,#3b2b3f, #49303e,#181e41, #272440, #181e41, #262340;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 100px;
 }
-
 nav div {
   width: 20%;
   text-align: center;
@@ -23,15 +24,15 @@ nav div p {
   color: white;
   font-weight: bold;
   font-size: 24px;
-  font-family: 'Tahoma';
-}
+  font-family: Verdana, Arial, Helvetica, sans-serif
+  }
 
 nav ul {
-  width: 55%;
+  width: 50%;
   list-style: none;
   display: flex;
   justify-content: space-around;
-  font-family: Trebuchet MS;
+  font-family: "Lucida Console", Courier, monospace;
 }
 
 nav ul li {
@@ -39,7 +40,7 @@ nav ul li {
 }
 
 nav ul li .contact {
-  background-color: #c5aa6a;
+  background-color: #80005f;
   padding: 15px 20px;
   border-radius: 15px;
   transition: 0.25s border-radius;
@@ -53,29 +54,28 @@ nav ul li a {
   text-decoration: none;
   color: white;
 }
-
+section .container {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
 section {
   width: 100%;
   display: flex;
   justify-content: center;
 }
-
-section .container {
-  width: 70%;
-  display: flex;
-  justify-content: space-between;
-}
-
 section .container .image {
-  width: 40%;
+  width: 50%;
 }
 
 section .container .image img {
   width: 500px;
   object-fit: contain;
   border-radius: 15px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+  }
 
 section .container .content {
   width: 50%;
@@ -86,8 +86,51 @@ section .container .content h1 {
   font-family: 'Tahoma';
   text-align: center;
   margin-bottom: 25px;
+  color:#f7e1e1;
+  font-weight:bold;
 }
 
 section .container .content p {
   line-height: 20px;
+  color:#f7e1e1;
+  font-weight:bold;
 }
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #333333;
+  padding: 10px;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  transition: background-color 0.3s ease;
+}
+
+/* Custom colors for each icon */
+.social-icons a.instagram {
+  background-color: #E1306C;
+}
+
+.social-icons a.facebook {
+  background-color: #1877F2;
+}
+
+.social-icons a.gmail {
+  background-color: #DB4437;
+}
+
+.social-icons a:hover {
+  opacity: 0.8;
+}
+
