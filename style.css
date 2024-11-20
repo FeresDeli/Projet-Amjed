@@ -100,10 +100,13 @@ section .container .content h1 {
   font-weight: bold;
 }
 
-section .container .content p {
+section .container .content ul li {
   line-height: 20px;
   color: #f7e1e1;
   font-weight: bold;
+  text-align: justify;
+  font-family: 'Tahoma';
+  font-size: 20px;
 }
 .social-icons {
   display: flex;
