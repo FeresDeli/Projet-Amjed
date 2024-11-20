@@ -4,12 +4,22 @@
   box-sizing: border-box;
 }
 body {
-    background: linear-gradient(to right, #49303e,#3b2b3f, #49303e,#181e41, #272440, #181e41, #262340);
+  background: linear-gradient(
+    to right,
+    #49303e,
+    #3b2b3f,
+    #49303e,
+    #181e41,
+    #272440,
+    #181e41,
+    #262340
+  );
 }
 nav {
   width: 100%;
   height: 70px;
-  background-color: #49303e,#3b2b3f, #49303e,#181e41, #272440, #181e41, #262340;
+  background-color: #49303e, #3b2b3f, #49303e, #181e41, #272440, #181e41,
+    #262340;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,15 +34,15 @@ nav div p {
   color: white;
   font-weight: bold;
   font-size: 24px;
-  font-family: Verdana, Arial, Helvetica, sans-serif
-  }
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
 
 nav ul {
   width: 50%;
   list-style: none;
   display: flex;
   justify-content: space-around;
-  font-family: "Lucida Console", Courier, monospace;
+  font-family: 'Lucida Console', Courier, monospace;
 }
 
 nav ul li {
@@ -55,12 +65,12 @@ nav ul li a {
   color: white;
 }
 section .container {
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    width: 70%;
-    display: flex;
-    justify-content: space-between;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
 }
 section {
   width: 100%;
@@ -75,7 +85,7 @@ section .container .image img {
   width: 500px;
   object-fit: contain;
   border-radius: 15px;
-  }
+}
 
 section .container .content {
   width: 50%;
@@ -86,14 +96,14 @@ section .container .content h1 {
   font-family: 'Tahoma';
   text-align: center;
   margin-bottom: 25px;
-  color:#f7e1e1;
-  font-weight:bold;
+  color: #f7e1e1;
+  font-weight: bold;
 }
 
 section .container .content p {
   line-height: 20px;
-  color:#f7e1e1;
-  font-weight:bold;
+  color: #f7e1e1;
+  font-weight: bold;
 }
 .social-icons {
   display: flex;
@@ -119,18 +129,17 @@ section .container .content p {
 
 /* Custom colors for each icon */
 .social-icons a.instagram {
-  background-color: #E1306C;
+  background-color: #e1306c;
 }
 
 .social-icons a.facebook {
-  background-color: #1877F2;
+  background-color: #1877f2;
 }
 
 .social-icons a.gmail {
-  background-color: #DB4437;
+  background-color: #db4437;
 }
 
 .social-icons a:hover {
   opacity: 0.8;
 }
-
